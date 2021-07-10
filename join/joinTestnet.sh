@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#install jq
+snap install jq
+
 set -e
 
 AXELAR_CORE_VERSION=""
