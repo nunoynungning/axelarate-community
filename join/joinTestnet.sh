@@ -83,6 +83,7 @@ docker run       \
 
 docker run                                           \
   --name axelar-core                                 \
+  -d                                                 \
   -p 1317:1317                                       \
   -p 26656-26658:26656-26658                         \
   -p 26660:26660                                     \
