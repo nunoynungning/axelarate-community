@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-#install jq
-snap install jq
-
 set -e
 
 AXELAR_CORE_VERSION=""
@@ -86,7 +83,7 @@ docker run       \
 
 docker run                                           \
   --name axelar-core                                 \
-  -d                                                 \
+   -d                                                \
   -p 1317:1317                                       \
   -p 26656-26658:26656-26658                         \
   -p 26660:26660                                     \
